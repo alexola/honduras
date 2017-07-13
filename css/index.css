@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+}
+
+.element {
+  float: left;
+  width: 100%;
+}
+
+.element .container {
+  width: 87.4291992187%;
+  height: 22px;
+  margin: 8px 0 0 10.78125%;
+}
+
+.text {
+  float: left;
+  margin: 31px 0 0 9.46615%;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1.25em;
+  color: rgb(253, 250, 250);
+}
+
+._button {
+  display: block;
+  float: left;
+  height: 22px;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  position: relative;
+  clear: both;
+  z-index: 12;
+  width: 10%;
+  height: 85px;
+  margin-top: -85px;
+  background-image: url('../images/11149589_998515736828397_6653356756110232963_o.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-1 {
+  position: relative;
+  z-index: 1;
+  height: 85px;
+  background-color: rgb(19, 123, 177);
+}
+
+.element-2 {
+  height: 35px;
+  background-color: rgb(222, 222, 222);
+}
+
+.container ._button-1 {
+  width: 8.3156779661%;
+  margin-left: -0.09389%;
+}
+
+.container ._button-2 {
+  width: 15.4010978428%;
+  margin-left: 1.47583%;
+}
+
+.container ._button-3 {
+  width: 11.0891756548%;
+  margin-left: 0.91968%;
+}
+
+.container ._button-4 {
+  width: 11.0891756548%;
+  margin-left: 1.53361%;
+}
+
+.container ._button-5 {
+  width: 13.2463405238%;
+  margin-left: 1.84418%;
+}
+
+.container ._button-6 {
+  width: 10.62692604%;
+  margin-left: 1.54565%;
+}
+
+.container ._button-7 {
+  width: 9.0860939907%;
+}
+
+.container ._button-8 {
+  width: 13.2463405238%;
+  margin-left: 0.49355%;
+}
+
+@media(max-width: 640px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .element .text {
+    font-size: 1.429em;
+  }
+
+  .container ._button {
+    font-size: 14px;
+  }
+
+  .container-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .element-1 {
+    position: relative;
+    z-index: 1;
+  }
+
+  .container ._button-1 {
+    width: 8.7276785714%;
+    margin-left: -0.10045%;
+  }
+
+  .container ._button-2 {
+    width: 16.1467633928%;
+    margin-left: 0.9096%;
+  }
+
+  .container ._button-3 {
+    width: 11.7801339285%;
+    margin-left: 0.56641%;
+  }
+
+  .container ._button-4 {
+    width: 11.5652901785%;
+    margin-left: 0.94587%;
+  }
+
+  .container ._button-5 {
+    width: 13.96484375%;
+    margin-left: 1.13002%;
+  }
+
+  .container ._button-6 {
+    width: 11.1272321428%;
+    margin-left: 0.95145%;
+  }
+
+  .container ._button-7 {
+    width: 9.6010044642%;
+  }
+
+  .container ._button-8 {
+    width: 12.1428571428%;
+    margin-left: 0.35993%;
+  }
+}
